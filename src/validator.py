@@ -16,3 +16,15 @@ def validate_transaction(transaction):
         print(f"Erreur de validation pour la transaction {transaction}: {e}")
         return False
     return True
+
+def clean_transactions(transactions):
+    valid_transactions = []
+    invalid_transactions = []
+    seen_ids = set()
+    for transaction in transactions:
+        if validate_transaction(transaction) and transaction["transaction_id"] not in seen_ids:
+            valid_transactions.append(transaction)
+            seen_ids.add(transaction["transaction_id"])
+        else:
+            invalid_transactions.append(transaction)
+    return valid_transactions, invalid_transactions
