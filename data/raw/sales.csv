@@ -1,0 +1,11 @@
+transaction_id,date,customer_id,product,category,quantity,unit_price
+T001,2026-10-01,C001,Laptop,Electronics,1,8500
+T002,2026-10-01,C002,Mouse,Accessories,2,120
+T003,2026-10-02,C003,Keyboard,Accessories,1,350
+T004,2026-10-03,C001,Monitor,Electronics,1,1800
+T005,2026-10-03,C004,Mouse,Accessories,3,120
+T006,2026-10-04,C005,Headphones,Electronics,2,450
+T007,2026-10-05,C002,Laptop,Electronics,1,8500
+T008,2026-10-05,C006,Keyboard,Accessories,2,350
+T009,2026-10-06,C007,Monitor,Electronics,1,1800
+T010,2026-10-07,C003,Mouse,Accessories,5,120
