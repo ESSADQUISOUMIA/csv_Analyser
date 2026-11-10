@@ -1,0 +1,10 @@
+{
+    "total_revenue": 23750.0,
+    "total_transactions": 10,
+    "unique_customers": 7,
+    "average_basket": 2375.0,
+    "revenue_by_category": {
+        "Electronics": 21500.0,
+        "Accessories": 2250.0
+    }
+}
